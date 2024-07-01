@@ -17,7 +17,7 @@ df = df.drop(columns=columns_to_remove)
 top_20_hawkish = df.nlargest(20, 'hawkish')
 
 # 맑은 고딕 폰트 설정
-font_path = 'C:/Windows/Fonts/malgun.ttf'  # 폰트 파일 경로
+font_path = 'H2MJRE.TTF'  
 font_name = font_manager.FontProperties(fname=font_path).get_name()
 rc('font', family=font_name)
 
